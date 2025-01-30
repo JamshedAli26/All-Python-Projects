@@ -5,12 +5,13 @@ menu = {
     "burger" : 60,
     "pasta" : 80,
     "coffee": 70,
-    "tea": 40
+    "tea": 40,
+    "Juice": 50
     }
 total_order = 0
 
 print("Welcome to our Python Resto")
-print(" Pizza: $10\n Buger: $6\n Paasta: $7\n Coffee: $5\n Tea: $3")
+print(" Pizza: $10\n Buger: $6\n Paasta: $7\n Coffee: $5\n Tea: $3\n Juice: $4")
 item1 = input("Enter the item name you want to enter: ").lower()
 
 while True:
